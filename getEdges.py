@@ -2,11 +2,11 @@ import cv2 as cv
 import numpy as np
 import decode
 
-def getEdges(cap, model, inpWidth, inpHeight, confThreshold, nmsThreshold) :
+def getEdges(input, cap, model, inpWidth, inpHeight, confThreshold, nmsThreshold) :
     net = cv.dnn.readNet(model)
 
-    #kWinName = "EAST: An Efficient and Accurate Scene Text Detector"
-    #cv.namedWindow(kWinName, cv.WINDOW_NORMAL)
+    kWinName = "EAST: An Efficient and Accurate Scene Text Detector"
+    cv.namedWindow(kWinName, cv.WINDOW_NORMAL)
     outputLayers = []
     outputLayers.append("feature_fusion/Conv_7/Sigmoid")
     outputLayers.append("feature_fusion/concat_3")
@@ -30,7 +30,7 @@ def getEdges(cap, model, inpWidth, inpHeight, confThreshold, nmsThreshold) :
         net.setInput(blob)
         output = net.forward(outputLayers)
         t, _ = net.getPerfProfile()
-        #label = 'Inference time: %.2f ms' % (t * 1000.0 / cv.getTickFrequency())
+        label = 'Inference time: %.2f ms' % (t * 1000.0 / cv.getTickFrequency())
 
         scores = output[0]
         geometry = output[1]
@@ -45,12 +45,14 @@ def getEdges(cap, model, inpWidth, inpHeight, confThreshold, nmsThreshold) :
             for j in range(4):
                 p1 = (vertices[j][0], vertices[j][1])
                 p2 = (vertices[(j + 1) % 4][0], vertices[(j + 1) % 4][1])
-                #cv.line(frame, p1, p2, (0, 255, 0), 2, cv.LINE_AA)
+                cv.line(frame, p1, p2, (0, 255, 0), 2, cv.LINE_AA)
                 if j % 2 == 1 :
                     Edges = np.append(Edges, [p1[0], p2[1]])
-        #cv.putText(frame, label, (0, 15), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255))
+        cv.putText(frame, label, (0, 15), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255))
         Edges = Edges.reshape(int(Edges.size/4), 4)
 
-        #cv.imshow(kWinName,frame)
-        #cv.imwrite("out-{}".format(args.input),frame)
+        cv.imshow(kWinName,frame)
+        cv.imwrite("out-{}".format(input),frame)
+        cv.waitKey()
+
         return Edges, angles

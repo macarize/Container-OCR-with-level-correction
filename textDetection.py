@@ -32,8 +32,8 @@ if __name__ == "__main__":
     model = args.model
 
     cap = cv.VideoCapture(args.input if args.input else 0)
-    Edges, angles = getEdges.getEdges(cap, model, inpWidth, inpHeight, confThreshold, nmsThreshold)
-    croppedImage = cropBox.cropBox(args.input, Edges, 1, 1, angles)
+    Edges, angles = getEdges.getEdges(args.input, cap, model, inpWidth, inpHeight, confThreshold, nmsThreshold)
+    croppedImage = cropBox.cropBox(args.input, Edges, 5, 2.5, angles)
 
     for i in range (0, len(croppedImage)):
         croppedImage[i].show()
