@@ -52,7 +52,7 @@ def getEdges(input, cap, model, inpWidth, inpHeight, confThreshold, nmsThreshold
         Edges = Edges.reshape(int(Edges.size/4), 4)
 
         cv.imshow(kWinName,frame)
-        cv.imwrite("out-{}".format(input),frame)
+        cv.imwrite("output/out-{}".format(input),frame)
         cv.waitKey()
 
         return Edges, angles

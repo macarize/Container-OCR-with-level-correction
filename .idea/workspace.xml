@@ -2,104 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd33505-0beb-4d69-8657-5076bc39b942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ISO6346.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod-Pic-cargodoor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cont.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cont.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/containerBig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out-Prod-Pic-cargodoor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out-cards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out-container.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out-containerBig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out-stop1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/textDetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISO6346.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/cards.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/container9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cropBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/cropBox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getEdges.py" beforeDir="false" afterPath="$PROJECT_DIR$/getEdges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-container8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/out-container8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stop1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textRecognition.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textDetection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out-container1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out-container3.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out-container6.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out-container7.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out-container8.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out-container2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ISO6346.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cropBox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getEdges.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,37 +41,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>rw</find>
-      <find>points</find>
-      <find>input</find>
-      <find>SHOW</find>
-      <find>cap</find>
-      <find>decode</find>
-      <find>cv2</find>
-      <find>confi</find>
-      <find>append</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/decode.py" />
-        <option value="$PROJECT_DIR$/venv/getEdges.py" />
-        <option value="$PROJECT_DIR$/get Edges.py" />
-        <option value="$PROJECT_DIR$/textRecognition.py" />
-        <option value="$PROJECT_DIR$/cropBox.py" />
-        <option value="$PROJECT_DIR$/preprocessing.py" />
-        <option value="$PROJECT_DIR$/getEdges.py" />
-        <option value="$PROJECT_DIR$/textDetection.py" />
-        <option value="$PROJECT_DIR$/ISO63.py" />
-        <option value="$PROJECT_DIR$/ISO6346.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
@@ -146,29 +50,16 @@
     <option name="height" value="1057" />
   </component>
   <component name="ProjectId" id="1VqBXWIHb7h1a4qAleDKVCDkXRE" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OCR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCR" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leehy\Documents\Container-OCR-with-level-correction\input" />
+      <recent name="C:\Users\leehy\Documents\Container-OCR-with-level-correction\output" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,7 +73,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.textDetection">
+  <component name="RunManager" selected="Python.cropBox">
+    <configuration name="cropBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cropBox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="textDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OCR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,8 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.textDetection" />
+        <item itemvalue="Python.cropBox" />
         <item itemvalue="Python.textRecognition" />
+        <item itemvalue="Python.textDetection" />
       </list>
     </recent_temporary>
   </component>
@@ -245,141 +158,15 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1057" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24507658" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18181819" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out-stop1.jpg" />
-    <entry file="file://$PROJECT_DIR$/venv/getEdges.py" />
-    <entry file="file://$PROJECT_DIR$/get Edges.py" />
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="2642" selection-start-line="2642" selection-end-line="2642" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stop1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out-cards.jpg" />
-    <entry file="file://$PROJECT_DIR$/cards.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cont.JPG" />
-    <entry file="file://$PROJECT_DIR$/containerBig.jpg" />
-    <entry file="file://$PROJECT_DIR$/Prod-Pic-cargodoor.jpg" />
-    <entry file="file://$PROJECT_DIR$/out-container.jpg" />
-    <entry file="file://$PROJECT_DIR$/cont.PNG" />
-    <entry file="file://$PROJECT_DIR$/clv.jpg" />
-    <entry file="file://$PROJECT_DIR$/clv2.jpg" />
-    <entry file="file://$PROJECT_DIR$/out-Prod-Pic-cargodoor.jpg" />
-    <entry file="file://$PROJECT_DIR$/container.jpg" />
-    <entry file="file://$PROJECT_DIR$/ISO63.py" />
-    <entry file="file://$PROJECT_DIR$/container7.jpeg" />
-    <entry file="file://$PROJECT_DIR$/out-container7.jpeg" />
-    <entry file="file://$PROJECT_DIR$/textDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out-container1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out-container3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out-container6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out-container7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out-container2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ISO6346.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cropBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getEdges.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out-container8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
