@@ -13,6 +13,7 @@ Checkdigit : NULL
 Typecode : 22G1  
 
 3. Level correction  
+![out-cards](https://user-images.githubusercontent.com/54901021/77381131-6abad900-6dc0-11ea-9cef-6c1484f623e9.jpg)  
 ![n1](https://user-images.githubusercontent.com/54901021/77380522-a0f75900-6dbe-11ea-985c-2b97494b8172.PNG)  
 ![y1](https://user-images.githubusercontent.com/54901021/77380532-a3f24980-6dbe-11ea-8487-c5e5d9118b79.PNG)  
 ![n2](https://user-images.githubusercontent.com/54901021/77380524-a2288600-6dbe-11ea-8402-7f6f9f63922d.PNG)  
